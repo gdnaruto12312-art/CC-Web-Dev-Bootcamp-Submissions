@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Form App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Web Development Bootcamp</h1>
+    
+    <section class="gallery">
+        <img src="html.png" alt="HTML" width="50" height="50">
+        <img src="images.jpg" alt="JavaScript" width="50" height="50">
+        <img src="css.png" alt="CSS" width="50" height="50">
+        <img src="wp5555764.jpg" alt="Goku" width="50" height="50">
+
+        <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ol>
+
+        <ol>
+            <li>Work</li>
+            <li>Implement</li>
+            <li>Redo</li>
+        </ol>
+    </section>
+
+    <h2><i>User Form</i></h2>
+
+    <form id="userForm">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" placeholder="Enter your name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" placeholder="Enter your email" required><br><br>
+
+        <label for="age">Age:</label><br>
+        <!-- Added min for better validation -->
+        <input type="number" id="age" placeholder="Enter your age" min="1" required><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="output"></div>
+
+    <section class="calculator">
+        <h3>Multiplication Calculator</h3>
+        <input type="number" id="a" placeholder="Enter A">
+        <input type="number" id="b" placeholder="Enter B">
+        <button id="calcBtn">Calculate Product</button>
+        <div id="sumOutput"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
